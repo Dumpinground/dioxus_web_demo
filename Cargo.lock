@@ -118,9 +118,9 @@ dependencies = [
 
 [[package]]
 name = "bstr"
-version = "1.4.0"
+version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c3d4260bcc2e8fc9df1eac4919a720effeb63a3f0952f5bf4944adfa18897f09"
+checksum = "a246e68bb43f6cd9db24bea052a53e40405417c5fb372e3d1a8a7f770a564ef5"
 dependencies = [
  "memchr",
  "serde",
@@ -293,9 +293,9 @@ dependencies = [
 
 [[package]]
 name = "dioxus-hooks"
-version = "0.3.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f1311daf0cd7591ab055ae7dd90860ce69dcfdb11cc09e1deb9c8f208c8ee09a"
+checksum = "9e79849e59470c6cf94ba7e18655e3b0da927b2beaba6c0095963ca9531be3b2"
 dependencies = [
  "dioxus-core",
  "futures-channel",
@@ -383,11 +383,12 @@ dependencies = [
 
 [[package]]
 name = "dioxus-web"
-version = "0.3.1"
+version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a90cda9fc7992af131b4ce468ea4740669fb18983c209f9b95572e5fea82a57e"
+checksum = "e7609e4635a0061dc2b0c01fd8f1a9dd3cb27ee786feed2e5a5cedc1110f1d44"
 dependencies = [
  "anyhow",
+ "async-trait",
  "console_error_panic_hook",
  "dioxus-core",
  "dioxus-html",
